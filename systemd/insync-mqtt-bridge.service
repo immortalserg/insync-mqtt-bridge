@@ -1,0 +1,15 @@
+[Unit]
+Description=Insync MQTT Bridge for Home Assistant
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/bin/insync_mqtt_bridge.py
+Restart=always
+RestartSec=10
+WorkingDirectory=%h
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

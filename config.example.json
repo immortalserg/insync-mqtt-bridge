@@ -1,0 +1,8 @@
+{
+  "host": "192.168.1.10",
+  "port": 1883,
+  "username": "insync_bridge",
+  "password": "CHANGE_ME",
+  "base_topic": "insync",
+  "discovery_prefix": "homeassistant"
+}
