@@ -220,4 +220,6 @@ systemctl --user restart insync-mqtt-bridge.service
 
 ## License
 
-No license has been added yet. Add a license file before publishing if you want to grant others explicit reuse, modification, and redistribution rights.
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions in the license.
